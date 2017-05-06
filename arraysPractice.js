@@ -112,6 +112,17 @@ var getRandomArbitrary = function() {
 // Your job is to write a function named finder that will get a random number (by invoking getRandomArbitrary), then loop through the array (that will be passed in as a parameter) to see if that random number is in the array. If it is, return true, if it's not, return false
 
   //Code Here
+  function finder(numbers) {
+    var num = getRandomArbitrary();
+    var check = false;
+    console.log(num);
+    for (var i = 0; i < numbers.length; i++) {
+      if (numbers[i] === num) {
+      	check = true;
+      }
+    }
+    return check;
+  }
 
   //Code Here
 
