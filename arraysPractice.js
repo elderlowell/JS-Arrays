@@ -115,7 +115,6 @@ var getRandomArbitrary = function() {
   function finder(numbers) {
     var num = getRandomArbitrary();
     var check = false;
-    console.log(num);
     for (var i = 0; i < numbers.length; i++) {
       if (numbers[i] === num) {
       	check = true;
